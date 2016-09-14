@@ -39,7 +39,7 @@
 <?php
 	//päev.kuu.aasta.tunnid.minutid.sekundid.nädalapäev
 	
-	echo date("d . m . Y . H . i . s . l");
+	echo date("d.m.Y. H:i:s. l");
 
 
 ?>
