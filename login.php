@@ -34,9 +34,18 @@
 			
 			$signupPasswordError = "Väli on kohustuslik";
 			
+		} else {
+			
+			//parrol ei olnud tyhi
+			
+			if( strlen($_POST["signupPassword"]) < 8 ) {
+				
+				$signupPasswordError = "* Parool peab olema vähemalt 8 tähemärki pikk";
+			}
 		}
 		
 	}
+	
 	
 	
 ?>
